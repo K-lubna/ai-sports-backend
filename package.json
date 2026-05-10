@@ -11,9 +11,18 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "openai": "^6.37.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-lubna/ai-sports-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K-lubna/ai-sports-backend/issues"
+  },
+  "homepage": "https://github.com/K-lubna/ai-sports-backend#readme"
 }
