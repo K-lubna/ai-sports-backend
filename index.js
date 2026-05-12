@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = "AIzaSyAGuxn9uJJQsZGA0qm61hW4ncrJoEgTbfA";
 
 app.get("/", (req, res) => {
   res.send("Gemini AI backend running 🚀");
